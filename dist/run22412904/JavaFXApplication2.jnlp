@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="JavaFXApplication2.jnlp">
+  <information>
+    <title>JavaFXApplication2</title>
+    <vendor>dell</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="JavaFXApplication2.jar" size="346371" download="eager" />
+    <jar href="lib\javafx-swt.jar" size="37123" download="eager" />
+    <jar href="lib\javafx.base.jar" size="752293" download="eager" />
+    <jar href="lib\javafx.controls.jar" size="2547923" download="eager" />
+    <jar href="lib\javafx.fxml.jar" size="129499" download="eager" />
+    <jar href="lib\javafx.graphics.jar" size="4261222" download="eager" />
+    <jar href="lib\javafx.media.jar" size="277696" download="eager" />
+    <jar href="lib\javafx.swing.jar" size="88809" download="eager" />
+    <jar href="lib\javafx.web.jar" size="727226" download="eager" />
+    <jar href="lib\mysql-connector-java-8.0.30.jar" size="2513563" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="JavaFXApplication2" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="javafxapplication2.JavaFXApplication2"  name="JavaFXApplication2" />
+  <update check="always"/>
+</jnlp>

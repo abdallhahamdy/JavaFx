@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" fx:id="login" prefHeight="481.0" prefWidth="583.0" style="-fx-background-color: white, #706897;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <ImageView blendMode="DARKEN" fitHeight="74.0" fitWidth="113.0" layoutX="2.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@image/images/cat3.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="187.0" fitWidth="368.0" layoutX="126.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@image/images/cats.jpg" />
+            </image>
+        </ImageView>
+    </children>
+    <opaqueInsets>
+        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+    </opaqueInsets>
+</AnchorPane>

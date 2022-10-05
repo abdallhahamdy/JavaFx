@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="signup" prefHeight="649.0" prefWidth="579.0" style="-fx-background-color: white, #706897;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxcontroller.SignupController">
+   <children>
+      <TextField fx:id="username" layoutX="174.0" layoutY="276.0" prefHeight="48.0" prefWidth="262.0" promptText="username" styleClass="control" stylesheets="@css/style.css">
+         <font>
+            <Font name="Bookman Old Style" size="18.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="password" layoutX="174.0" layoutY="344.0" prefHeight="48.0" prefWidth="262.0" promptText="password" styleClass="control" stylesheets="@css/style.css">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </PasswordField>
+      <Button layoutX="332.0" layoutY="578.0" mnemonicParsing="false" onAction="#signUp" prefHeight="48.0" prefWidth="121.0" style="-fx-background-color: white,#706897;" text="Sign Up" textFill="#dadada">
+         <font>
+            <Font name="Bell MT Bold" size="22.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="445.0" layoutY="20.0" mnemonicParsing="false" onAction="#logInPage" prefHeight="48.0" prefWidth="121.0" style="-fx-background-color: white,#706897;" text="Log In" textFill="#dadada">
+         <opaqueInsets>
+            <Insets top="1.0" />
+         </opaqueInsets>
+         <font>
+            <Font name="Bell MT Bold" size="22.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView blendMode="DARKEN" fitHeight="55.0" fitWidth="49.0" layoutX="98.0" layoutY="295.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/images/user.png" />
+         </image>
+      </ImageView>
+      <ImageView blendMode="DARKEN" fitHeight="58.0" fitWidth="69.0" layoutX="88.0" layoutY="361.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/images/password1.jpg" />
+         </image>
+      </ImageView>
+      <ImageView blendMode="DARKEN" fitHeight="74.0" fitWidth="113.0" layoutX="2.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/images/cat3.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="187.0" fitWidth="368.0" layoutX="97.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/images/cats.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="loading" fitHeight="51.0" fitWidth="58.0" layoutX="480.0" layoutY="577.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/images/loading.gif" />
+         </image>
+      </ImageView>
+      <TextField fx:id="phone" layoutX="174.0" layoutY="423.0" prefHeight="48.0" prefWidth="262.0" promptText="phone" styleClass="control" stylesheets="@css/style.css">
+         <font>
+            <Font name="Bookman Old Style" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="address" layoutX="174.0" layoutY="497.0" prefHeight="48.0" prefWidth="262.0" promptText="address" styleClass="control" stylesheets="@css/style.css">
+         <font>
+            <Font name="Bookman Old Style" size="18.0" />
+         </font>
+      </TextField>
+      <ImageView blendMode="DARKEN" fitHeight="49.0" fitWidth="51.0" layoutX="98.0" layoutY="429.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/images/phone.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="61.0" fitWidth="61.0" layoutX="92.0" layoutY="497.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/images/address.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="invalid" layoutX="13.0" layoutY="580.0" prefHeight="45.0" prefWidth="311.0" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+   <opaqueInsets>
+      <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+   </opaqueInsets>
+</AnchorPane>

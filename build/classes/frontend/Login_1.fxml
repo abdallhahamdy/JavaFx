@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="login" prefHeight="481.0" prefWidth="583.0" style="-fx-background-color: white, #706897;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxcontroller.LogInController_1">
+    <children>
+        <TextField layoutX="174.0" layoutY="276.0" prefHeight="48.0" prefWidth="262.0" promptText="username" styleClass="control" stylesheets="@css/style.css">
+            <font>
+                <Font name="Bookman Old Style" size="18.0" />
+            </font>
+        </TextField>
+        <PasswordField layoutX="174.0" layoutY="344.0" prefHeight="48.0" prefWidth="262.0" promptText="password" styleClass="control" stylesheets="@css/style.css">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </PasswordField>
+        <Button layoutX="331.0" layoutY="416.0" mnemonicParsing="false" onAction="#loginAction" prefHeight="48.0" prefWidth="121.0" style="-fx-background-color: white,#706897;" text="Log In" textFill="#dadada">
+            <font>
+                <Font name="Bell MT Bold" size="22.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <Button layoutX="445.0" layoutY="20.0" mnemonicParsing="false" onAction="#signUpPage" prefHeight="48.0" prefWidth="121.0" style="-fx-background-color: white,#706897;" text="Sign Up" textFill="#dadada">
+            <opaqueInsets>
+                <Insets top="1.0" />
+            </opaqueInsets>
+            <font>
+                <Font name="Bell MT Bold" size="22.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <ImageView blendMode="DARKEN" fitHeight="55.0" fitWidth="49.0" layoutX="98.0" layoutY="295.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@images/user.png" />
+            </image>
+        </ImageView>
+        <ImageView blendMode="DARKEN" fitHeight="58.0" fitWidth="69.0" layoutX="88.0" layoutY="361.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@images/password1.jpg" />
+            </image>
+        </ImageView>
+        <ImageView blendMode="DARKEN" fitHeight="74.0" fitWidth="113.0" layoutX="2.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@images/cat3.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="187.0" fitWidth="368.0" layoutX="97.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@images/cats.jpg" />
+            </image>
+        </ImageView>
+        <Button blendMode="DARKEN" layoutX="98.0" layoutY="416.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="224.0" text="Forgot password" textFill="#070707">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+        </Button>
+        <ImageView fx:id="loading" fitHeight="51.0" fitWidth="58.0" layoutX="467.0" layoutY="419.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@images/loading.gif" />
+            </image>
+        </ImageView>
+    </children>
+    <opaqueInsets>
+        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+    </opaqueInsets>
+</AnchorPane>
